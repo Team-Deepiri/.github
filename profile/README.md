@@ -37,14 +37,6 @@ PyTorch, TensorFlow, NLP & ML APIs
 **Monitoring & Logging:**  
 Prometheus, Grafana, ELK stack
 
----
-
-## Projects
-
-Each project is built with **scalability, modularity, and performance** in mind. Current initiatives include:  
-
-1.  
-2.  
 
 ---
 
