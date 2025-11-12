@@ -29,8 +29,5 @@ Apply on the Discord above!
 
 ---
 
-## Vision
-
-DeepIri aims to **lead the next generation of microservice SaaS development**, blending cloud-native architectures with AI-enhanced intelligence to build products that scale, adapt, and innovate.
 
 ---
