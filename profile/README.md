@@ -8,7 +8,7 @@
 
 ## Our Mission
 
-- Build **scalable SaaS products** with microservices at their core.  
+- Build **scalable AI** for productivity tools.
 - Enable rapid deployment, iteration, and modular growth for software projects.  
 - Explore AI and automation to enhance product intelligence and efficiency.  
 - Cultivate a collaborative environment for developers to innovate and grow.
