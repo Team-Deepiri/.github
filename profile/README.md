@@ -17,15 +17,15 @@
 
 ## Connect With Us
 
-**GitHub:** [DeepIri](https://github.com/deepiri)  
-**Discord:** [DeepIri Discord](https://discord.gg/B3Tx4Wmx)  
+**GitHub:** [Deepiri](https://github.com/deepiri)  
+**Discord:** [Deepiri Discord](https://discord.gg/B3Tx4Wmx)  
 **Email:** deepirimanagement@gmail.com
 
 ---
 
 ## Contribution
 
-We welcome contributors who are passionate about microservices, SaaS, and AI-powered solutions. Please read our **[CONTRIBUTING.md](CONTRIBUTING.md)** for guidelines.
+Apply on the Discord above! 
 
 ---
 
