@@ -15,9 +15,12 @@ Our mission is to design and deploy scalable AI systems that bridge research and
 ## Connect With Us
 
 **Website** https://deepiri.com
+
 **GitHub:** [Deepiri](https://github.com/deepiri)  
+
 **Discord:** [Deepiri Discord](https://discord.gg/B3Tx4Wmx)  
-**Email:** deepirimanagement@gmail.com
+
+**Email:** management@deepiri.com
 
 ---
 
