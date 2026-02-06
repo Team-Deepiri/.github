@@ -22,6 +22,8 @@ Our mission is to design and deploy scalable AI systems that bridge research and
 
 **Email:** management@deepiri.com
 
+**Support Inquiries** helpdesk@deepiri.com
+
 ---
 
 ## Contribution
