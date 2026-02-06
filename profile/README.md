@@ -28,7 +28,7 @@ Our mission is to design and deploy scalable AI systems that bridge research and
 
 ## Contribution
 
-Apply on the Discord above! 
+Send your resume to helpdesk@deepiri.com to be considered to be apart of our team!
 
 ---
 
