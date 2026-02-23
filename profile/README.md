@@ -8,7 +8,7 @@
 
 ## Our Mission
 
-Our mission is to design and deploy scalable AI systems that bridge research and real-world application — integrating autonomy, security, and performance into every layer of computation.
+Our mission is to design, deploy, and maintain scalable open source AI tools that bridge research and real-world application.
 
 ---
 
