@@ -16,8 +16,6 @@ Our mission is to design, deploy, and maintain scalable open source AI tools tha
 
 **Website** https://deepiri.com
 
-**GitHub:** [Deepiri](https://github.com/deepiri)  
-
 **Discord:** [Deepiri Discord](https://discord.gg/B3Tx4Wmx)  
 
 **Email:** management@deepiri.com
