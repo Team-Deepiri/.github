@@ -2,7 +2,7 @@
 
 ![DeepIri Logo](../logo.png)
 
-**Deepiri** is a collaborative grassroots open source R&D software development team focused on designing, building, and scaling **AI productivity tools**. Our mission is to create modern, modular, and maintainable solutions that leverage cloud-native architectures, AI-powered automation, and cutting-edge development practices.
+## **Deepiri** is a collaborative grassroots open source R&D software development team focused on designing, building, and scaling **AI productivity tools**. Our mission is to create modern, modular, and maintainable solutions that leverage cloud-native architectures, AI-powered automation, and cutting-edge development practices.
 
 ---
 
