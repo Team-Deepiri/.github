@@ -129,9 +129,9 @@ AI workloads are handled by **Cyrex** (`8000`), a dedicated Python-based agent r
 
 We move fast without compromising system integrity. All contributions follow our SDLC:
 
-- **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`)
+- **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`) and follow a template to maintian consistency and clarity
 - **Domain-Specific Targeting** — contributors target the dev branch for their specific service
-- **QA Verification** — all PRs are reviewed to ensure system integrity is maintained
+- **QA Verification** — all PRs are reviewed to ensure system integrity is maintained, features work as intened, and docker containers are healthy
 
 ---
 
@@ -157,7 +157,7 @@ We are a small, high-velocity team. To maintain our pace, we follow a spec-first
 
 ## Team & Mission
 
-Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it.
+Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it. Our mission also includes designing, deploying, and maintaining scalable open source AI tools that bridge research and real-world application.
 
 ### Connect With Us
 
@@ -166,7 +166,7 @@ Deepiri is powered by a **focused R&D collective** dedicated to building AI prod
 | **Website** | [deepiri.com](https://deepiri.com) |
 | **Discord** | [Deepiri Discord](https://discord.gg/B3Tx4Wmx) |
 | **General Email** | [management@deepiri.com](mailto:management@deepiri.com) |
-| **Support** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
+| **Support Inquiries** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
 
 ### Join the Team
 

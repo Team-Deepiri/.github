@@ -2,7 +2,7 @@
 
 # DEEPIRI PLATFORM
 
-<img src="logo.png" width="200" alt="Deepiri Logo">
+<img src="../assets/deepiri-logo.png" width="200" alt="Deepiri Logo">
 
 **A high-performance, Kubernetes-oriented microservices platform with first-class AI agent integration.**
 
