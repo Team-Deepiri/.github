@@ -50,16 +50,16 @@ The system is Kubernetes-native in design, while remaining developer-friendly in
 We believe that architecture is a living entity. Most platforms fail because they allow "architectural rot" — the slow creep of technical debt that makes systems impossible to maintain.
 
 Deepiri is built to enforce:
-- **Strict Logic Isolation** — no service leaks data into another
-- **Environment Parity** — if it doesn't run in `run_dev.py`, it doesn't run in production
-- **AI-Native Flow** — AI agents are system actors with their own ports and execution cycles, not chatbots bolted on afterward
+- **Strict Logic Isolation** — no service leaks data into another.
+- **Environment Parity** — if it doesn't run in `run_dev.py`, it doesn't run in production.
+- **AI-Native Flow** — AI agents are system actors with their own ports and execution cycles, not chatbots bolted on afterward.
 
 ## Key Principles
 
-- **Clear domain boundaries** — every service owns its logic and data
-- **Infrastructure realism** — local dev mimics production behavior
-- **Minimal developer friction** — complexity lives in the platform, not the workflow
-- **AI as a first-class system component**, not an afterthought
+- **Clear domain boundaries** — every service owns its logic and data.
+- **Infrastructure realism** — local dev mimics production behavior.
+- **Minimal developer friction** — complexity lives in the platform, not the workflow.
+- **AI as a first-class system component**, not an afterthought.
 
 ---
 
@@ -84,8 +84,8 @@ Before running the stack, ensure the following are installed:
 
 Unlike traditional setups that rely on scattered `.env` files, Deepiri mirrors **Kubernetes Secrets** locally.
 
-- **Secret Injection** — `run_dev.py` dynamically injects configurations from `ops/k8s/secrets` into the service environment
-- **Isolated Runtimes** — every service runs in its own process space with a dedicated port, preventing port-shadowing and resource contention
+- **Secret Injection** — `run_dev.py` dynamically injects configurations from `ops/k8s/secrets` into the service environment.
+- **Isolated Runtimes** — every service runs in its own process space with a dedicated port, preventing port-shadowing and resource contention.
 
 ### Start the full stack
 
@@ -109,8 +109,8 @@ Requests are forwarded to isolated TypeScript/Node.js services — Auth, Task Or
 AI workloads are handled by **Cyrex** (`8000`), a dedicated Python-based agent runtime. Cyrex manages task execution, experiment tracking via MLflow, and research environments via Jupyter. It runs as a fully separate service because AI workloads have distinct runtime characteristics — longer execution cycles, heavier compute, and different failure modes than standard microservices.
 
 ### 4. Persistence & Realtime State
-- **PostgreSQL** for relational data
-- **Redis** for caching, sessions, and realtime coordination
+- **PostgreSQL** for relational data.
+- **Redis** for caching, sessions, and realtime coordination.
 
 ---
 
@@ -144,9 +144,9 @@ AI workloads are handled by **Cyrex** (`8000`), a dedicated Python-based agent r
 
 We move fast without compromising system integrity. All contributions follow our SDLC:
 
-- **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`) and follow a template to maintian consistency and clarity
-- **Domain-Specific Targeting** — contributors target the dev branch for their specific service
-- **QA Verification** — all PRs are reviewed to ensure system integrity is maintained, features work as intened, and docker containers are healthy
+- **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`) and follow a template to maintain consistency and clarity.
+- **Domain-Specific Targeting** — contributors target the dev branch for their specific service.
+- **QA Verification** — all PRs are reviewed to ensure system integrity is maintained, features work as intended, and docker containers are healthy.
 
 ---
 
@@ -157,7 +157,7 @@ We move fast without compromising system integrity. All contributions follow our
 | **1** | Core API Gateway & Auth Service | ✅ Complete |
 | **2** | Cyrex AI Agent integration (Python Layer) | ✅ Complete |
 | **3** | Multi-cluster K8s deployment patterns | 🔄 In Progress |
-| **4** | Real-time event streaming via Redis Pub/Sub |   Planned |
+| **4** | Real-time event streaming via Redis Pub/Sub |  Planned |
 
 ---
 
@@ -165,14 +165,14 @@ We move fast without compromising system integrity. All contributions follow our
 
 We are a small, high-velocity team. To maintain our pace, we follow a spec-first collaboration model:
 
-- **Issue Reporting** — before opening a PR, ensure there is an associated Issue with a defined Spec, Scope, and Success Criteria
-- **Active Development** — we prioritize PRs that align with our philosophy and pass strict QA verification
+- **Issue Reporting** — before opening a PR, ensure there is an associated Issue with a defined Spec, Scope, and Success Criteria.
+- **Active Development** — we prioritize PRs that align with our philosophy and pass strict QA verification.
 
 ---
 
 ## Team & Mission
 
-Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it. Our mission also includes designing, deploying, and maintaining scalable open source AI tools that bridge research and real-world application.
+Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it. Our mission also includes designing, deploying, and maintaining scalable open-source AI tools that bridge research and real-world application.
 
 ### Connect With Us
 
