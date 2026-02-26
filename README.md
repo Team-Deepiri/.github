@@ -24,7 +24,7 @@ npx get-shit-done-cc@latest
 
 <br>
 
-![GSD Install](assets/terminal.svg)
+![GSD Install](assets/gsdTerminal.svg)
 
 <br>
 
