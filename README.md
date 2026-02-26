@@ -1,12 +1,8 @@
 <div align="center">
 
-# DEEPIRI PLATFORM
+# Deepiri
 
-<img src="logo.png" width="200" alt="Deepiri Logo">
-
-**A high-performance, Kubernetes-oriented microservices platform with first-class AI agent integration.**
-
-Designed to prevent **architectural rot** — the gradual loss of system quality as platforms scale.
+**A production-grade, Kubernetes-native platform for building scalable AI-powered microservices and AI-driven workflows.**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](#)
@@ -28,16 +24,20 @@ Designed to prevent **architectural rot** — the gradual loss of system quality
 
 ## Overview
 
-Deepiri is a production-grade platform for building **scalable microservice systems** with **AI-powered workflows**.
-
-It abstracts infrastructure complexity *without hiding it*, allowing engineers to:
-- Ship features quickly
-- Maintain strict service boundaries
-- Scale confidently without rewrites
+Deepiri is a production-grade platform for building **scalable microservice systems** with **AI-powered workflows**. It abstracts infrastructure complexity *without hiding it*, allowing engineers to ship features quickly, maintain strict service boundaries, and scale confidently without rewrites.
 
 The system is Kubernetes-native in design, while remaining developer-friendly in local environments.
 
 ---
+
+## The Deepiri Philosophy
+
+We believe that architecture is a living entity. Most platforms fail because they allow "architectural rot" — the slow creep of technical debt that makes systems impossible to maintain.
+
+Deepiri is built to enforce:
+- **Strict Logic Isolation** — no service leaks data into another
+- **Environment Parity** — if it doesn't run in `run_dev.py`, it doesn't run in production
+- **AI-Native Flow** — AI agents are system actors with their own ports and execution cycles, not chatbots bolted on afterward
 
 ## Key Principles
 
@@ -48,42 +48,50 @@ The system is Kubernetes-native in design, while remaining developer-friendly in
 
 ---
 
+## Prerequisites
+
+Before running the stack, ensure the following are installed:
+
+| Requirement | Minimum Version | Notes |
+|-------------|-----------------|-------|
+| **Python** | 3.10+ | Required for `run_dev.py` and Cyrex |
+| **Node.js** | 18+ | Required for all TypeScript services |
+| **Docker** | 24+ | Required for containerized runtimes |
+| **kubectl** | 1.27+ | Required for K8s secret management |
+
+> **Windows users:** WSL2 is required. Native Windows is not supported.
+
+---
+
 ## Getting Started
+
+### Operations & Security
+
+Unlike traditional setups that rely on scattered `.env` files, Deepiri mirrors **Kubernetes Secrets** locally.
+
+- **Secret Injection** — `run_dev.py` dynamically injects configurations from `ops/k8s/secrets` into the service environment
+- **Isolated Runtimes** — every service runs in its own process space with a dedicated port, preventing port-shadowing and resource contention
 
 ### Start the full stack
 
 ```bash
 python run_dev.py
+```
 
-**Works on macOS, Windows (WSL), and Linux.**
-
-> **Recommended:** `run_dev.py` loads Kubernetes-style configs from `ops/k8s/secrets`, eliminating the need for scattered `.env` files while preserving production parity.
+**Supported on macOS, Linux, and Windows (WSL2).**
 
 ---
 
 ## How It Works
 
 ### 1. API Gateway
-All inbound traffic enters through the Gateway (Port 5000), which handles:
-- Routing
-- Rate limiting
-- Authentication validation
-- Redis-backed caching
+All inbound traffic enters through the Gateway on port `5000`, which handles routing, rate limiting, authentication validation, and Redis-backed caching.
 
 ### 2. Microservice Domains
-Requests are forwarded to isolated TypeScript/Node.js services such as:
-- Auth
-- Task Orchestration
-- Analytics
-- Realtime communication
+Requests are forwarded to isolated TypeScript/Node.js services — Auth, Task Orchestration, Analytics, Realtime, and others. Each service is independently deployable and scalable.
 
-*Each service is independently deployable and scalable.*
-
-### 3. AI & Automation Layer
-AI workloads are delegated to Cyrex (Port 8000), a Python-based agent API:
-- Task execution
-- Experiment tracking via MLflow
-- Research and prototyping via Jupyter
+### 3. AI & Automation Layer — Cyrex
+AI workloads are handled by **Cyrex** (`8000`), a dedicated Python-based agent runtime. Cyrex manages task execution, experiment tracking via MLflow, and research environments via Jupyter. It runs as a fully separate service because AI workloads have distinct runtime characteristics — longer execution cycles, heavier compute, and different failure modes than standard microservices.
 
 ### 4. Persistence & Realtime State
 - **PostgreSQL** for relational data
@@ -91,7 +99,7 @@ AI workloads are delegated to Cyrex (Port 8000), a Python-based agent API:
 
 ---
 
-## Architecture Matrix
+## Architecture
 
 ### Platform Services
 
@@ -117,10 +125,58 @@ AI workloads are delegated to Cyrex (Port 8000), a Python-based agent API:
 
 ---
 
+## Engineering Standards
+
+We move fast without compromising system integrity. All contributions follow our SDLC:
+
+- **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`)
+- **Domain-Specific Targeting** — contributors target the dev branch for their specific service
+- **QA Verification** — all PRs are reviewed to ensure system integrity is maintained
+
+---
+
+## Roadmap
+
+| Phase | Focus | Status |
+|-------|-------|--------|
+| **1** | Core API Gateway & Auth Service | ✅ Complete |
+| **2** | Cyrex AI Agent integration (Python Layer) | ✅ Complete |
+| **3** | Multi-cluster K8s deployment patterns | 🔄 In Progress |
+| **4** | Real-time event streaming via Redis Pub/Sub |   Planned |
+
+---
+
+## Collaboration & Support
+
+We are a small, high-velocity team. To maintain our pace, we follow a spec-first collaboration model:
+
+- **Issue Reporting** — before opening a PR, ensure there is an associated Issue with a defined Spec, Scope, and Success Criteria
+- **Active Development** — we prioritize PRs that align with our philosophy and pass strict QA verification
+
+---
+
+## Team & Mission
+
+Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it.
+
+### Connect With Us
+
+| Resource | Contact |
+| :--- | :--- |
+| **Website** | [deepiri.com](https://deepiri.com) |
+| **Discord** | [Deepiri Discord](https://discord.gg/B3Tx4Wmx) |
+| **General Email** | [management@deepiri.com](mailto:management@deepiri.com) |
+| **Support** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
+
+### Join the Team
+
+We're always looking for contributors and collaborators. Send your resume or portfolio to [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) to be considered for our open-source R&D team.
+
+---
+
 ## License
 
-This project is licensed under the Apache License 2.0.
-You are free to use, modify, and distribute this software, including for commercial purposes, under the terms of the license.
+This project is licensed under the [Apache License 2.0](./LICENSE.md). You are free to use, modify, and distribute this software, including for commercial purposes.
 
 <br>
 
