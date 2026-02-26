@@ -22,7 +22,20 @@
 
 <br>
 
-Overview · The Deepiri Philosophy · Key Principles · Prerequisites · Getting Started · How It Works · Roadmap · Engineering Standards · Collaboration & Support · Team & Mission · License
+<div align="center">
+  <a href="#overview">Overview</a> · 
+  <a href="#the-deepiri-philosophy">The Deepiri Philosophy</a> · 
+  <a href="#key-principles">Key Principles</a> · 
+  <a href="#prerequisites">Prerequisites</a> · 
+  <a href="#getting-started">Getting Started</a> · 
+  <a href="#how-it-works">How It Works</a> · 
+  <a href="#architecture">Architecture</a> · 
+  <a href="#engineering-standards">Engineering Standards</a> · 
+  <a href="#roadmap">Roadmap</a> · 
+  <a href="#collaboration--support">Collaboration & Support</a> · 
+  <a href="#team--mission">Team & Mission</a> · 
+  <a href="#license">License</a>
+</div>
 
 ## Overview
 
