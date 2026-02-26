@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/deepiri-logo.png" alt="Deepiri Logo" />
+  <img src="https://raw.githubusercontent.com/Team-Deepiri/.github/update-org-readme/assets/deepiri-logo.png" alt="Deepiri Logo">
 </p>
 
 <br>
@@ -191,7 +191,7 @@ We're always looking for contributors and collaborators. Send your resume or por
 
 ## License
 
-This project is licensed under the [Apache License 2.0](./LICENSE.md). You are free to use, modify, and distribute this software, including for commercial purposes.
+This project is licensed under the [Apache License 2.0](https://github.com/Team-Deepiri/deepiri-platform/blob/main/LICENSE.md). You are free to use, modify, and distribute this software, including for commercial purposes.
 
 <br>
 
