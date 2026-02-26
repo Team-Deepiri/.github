@@ -22,6 +22,8 @@
 
 <br>
 
+Overview · The Deepiri Philosophy · Key Principles · Prerequisites · Getting Started · How It Works · Roadmap · Engineering Standards · Collaboration & Support · Team & Mission · License
+
 ## Overview
 
 Deepiri is a production-grade platform for building **scalable microservice systems** with **AI-powered workflows**. It abstracts infrastructure complexity *without hiding it*, allowing engineers to ship features quickly, maintain strict service boundaries, and scale confidently without rewrites.
