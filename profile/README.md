@@ -34,12 +34,58 @@ An open source organization currently focused on building an **intelligence plat
 </div>
 
 ---
+# Deepiri
 
 ## Overview
 
-Deepiri is a production-grade platform for building **scalable microservice systems** with **AI-powered workflows**. It abstracts infrastructure complexity *without hiding it*, allowing engineers to ship features quickly, maintain strict service boundaries, and scale confidently without rewrites.
+Deepiri is an independent AI research and development collective focused on building advanced productivity platforms and autonomous systems. Operating at the intersection of modular microservice architecture, generative intelligence, and adaptive human–AI interaction, the group explores how intelligent systems can become scalable, creative, and self-managing.
 
-The system is Kubernetes-native in design, while remaining developer-friendly in local environments.
+With a globally distributed team of 35+ developers, Deepiri researches and prototypes AI-driven frameworks for media ingestion, automation, cognitive computing, and cloud productivity. The organization emphasizes modular, flexible system design—enabling AI platforms that evolve, integrate, and operate across distributed environments.
+
+Deepiri’s goal is not only to research artificial intelligence, but to translate that research into practical platforms that enhance human capability and expand what autonomous systems can responsibly achieve.
+
+---
+
+## Team Mission
+
+Deepiri’s mission is to design and develop scalable AI systems that augment human productivity while maintaining alignment, adaptability, and long-term sustainability.
+
+The team is committed to:
+
+- Advancing modular AI architectures that support flexibility and long-term maintainability  
+- Building generative systems capable of creative and adaptive problem-solving  
+- Designing intuitive human–AI interfaces that enhance collaboration rather than replace it  
+- Developing autonomous frameworks that operate independently while remaining aligned with human goals  
+- Leveraging cloud infrastructure to enable distributed, high-performance AI workloads  
+
+Through research, experimentation, and collaboration, Deepiri aims to shape the next generation of intelligent productivity platforms.
+
+---
+
+## Philosophy
+
+### 1. Modularity Enables Intelligence  
+Scalable AI systems must be composable and adaptable. Modular architecture allows innovation without fragility.
+
+### 2. Human-Centered Autonomy  
+Autonomous systems should extend human creativity and productivity—not diminish agency or control.
+
+### 3. Creativity Through Generative Intelligence  
+AI should not merely automate tasks; it should generate novel solutions and adapt dynamically to complex environments.
+
+### 4. Alignment and Responsibility  
+Intelligence without alignment introduces risk. Deepiri prioritizes responsible system design, ensuring autonomy operates within human-defined objectives.
+
+### 5. Research with Practical Impact  
+Exploration drives innovation, but practical implementation creates impact. Deepiri is committed to transforming research into real-world AI platforms.
+### Connect With Us
+
+| Resource | Contact |
+|:---------|:--------|
+| **Website** | [deepiri.com](https://deepiri.com) |
+| **Discord** | [Deepiri Discord](https://discord.gg/B3Tx4Wmx) |
+| **General Email** | [management@deepiri.com](mailto:management@deepiri.com) |
+| **Support Inquiries** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
 
 ## The Deepiri Philosophy
 
@@ -90,80 +136,11 @@ Before running the stack, ensure the following are installed:
 
 ---
 
-## Getting Started
-
-### Operations & Security
-
-Unlike traditional setups that rely on scattered `.env` files, Deepiri mirrors **Kubernetes Secrets** locally. The `run_dev.py` script automates the entire local stack — it creates the Docker network, spins up all containers, injects ConfigMaps and Secrets natively, and waits for dependencies like PostgreSQL to be ready before proceeding.
-
-```bash
-python run_dev.py
-```
-
-**Supported on macOS, Linux, and Windows (WSL2).**
-
-### Quick Validation
-
-Once the stack is running, verify all containers are healthy:
-
-```bash
-docker ps
-```
-
-> All services should show a status of `Up`. If any container is restarting or exited, check its logs with `docker logs <container-name>`.
-
-Key endpoints to confirm:
-
-| Service | URL |
-|:--------|:----|
-| **Frontend** | http://localhost:5173 |
-| **API Gateway** | http://localhost:5100 |
-| **Cyrex API** | http://localhost:8000 |
-| **MLflow** | http://localhost:5500 |
-| **Jupyter** | http://localhost:8888 |
-| **pgAdmin** | http://localhost:5050 |
-| **MinIO Console** | http://localhost:9001 |
-
----
-
 ## Architecture
 
 <p align="center">
   <img src="../assets/architecture.svg" alt="Deepiri Architecture" />
 </p>
-
-### Platform Services
-
-| Service | Port | Description |
-|:--------|:-----|:------------|
-| **API Gateway** | `5100` | Entry point & request routing |
-| **Auth Service** | `5001` | Authentication & authorization |
-| **Task Orchestrator** | `5002` | Task coordination |
-| **Engagement** | `5003` | Gamification |
-| **Analytics** | `5004` | Platform analytics |
-| **Notifications** | `5005` | Messaging & alerts |
-| **External Bridge** | `5006` | Third-party integrations |
-| **Realtime** | `5008` | WebSocket communication |
-
-### AI / ML Services
-
-| Service | Port | Description |
-|:--------|:-----|:------------|
-| **Cyrex API** | `8000` | AI agent execution |
-| **Cyrex UI** | `5175` | Agent testing UI |
-| **Jupyter** | `8888` | Research notebooks |
-| **MLflow** | `5500` | Experiment tracking |
-
-### Infrastructure
-
-| Service | Port | Description |
-|:--------|:-----|:------------|
-| **pgAdmin** | `5050` | PostgreSQL management UI |
-| **Adminer** | `8080` | Database management UI |
-| **InfluxDB** | `8086` | Time-series data |
-| **MinIO Console** | `9001` | Object storage UI |
-| **Milvus** | `19530` | Vector database |
-
 ---
 
 ## Engineering Standards
@@ -174,16 +151,7 @@ We move fast without compromising system integrity. All contributions follow our
 - **Domain-Specific Targeting** — contributors target the dev branch for their specific service
 - **QA Verification** — all PRs are reviewed to ensure system integrity is maintained, features work as intended, and Docker containers are healthy
 
----
-
-## Roadmap
-
-| Phase | Focus | Status |
-|:------|:------|:-------|
-| **1** | Core API Gateway & Auth Service | ✅ |
-| **2** | Cyrex AI Agent integration (Python Layer) | ✅ |
-| **3** | Multi-cluster K8s deployment patterns | ●●● |
-| **4** | Real-time event streaming via Redis Pub/Sub | ●●● |
+---|
 
 ---
 
@@ -194,28 +162,11 @@ We are a small, high-velocity team. To maintain our pace, we follow a spec-first
 - **Issue Reporting** — before opening a PR, ensure there is an associated Issue with a defined Spec, Scope, and Success Criteria
 - **Active Development** — we prioritize PRs that align with our philosophy and pass strict QA verification
 
-## Team & Mission
-
-Deepiri is powered by a **focused R&D collective** dedicated to building AI productivity tools. While the platform solves complex engineering challenges, our team drives the **vision, innovation, and community** behind it. Our mission includes designing, deploying, and maintaining scalable open-source AI tools that bridge research and real-world application.
-
-### Connect With Us
-
-| Resource | Contact |
-|:---------|:--------|
-| **Website** | [deepiri.com](https://deepiri.com) |
-| **Discord** | [Deepiri Discord](https://discord.gg/B3Tx4Wmx) |
-| **General Email** | [management@deepiri.com](mailto:management@deepiri.com) |
-| **Support Inquiries** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
-
 ### Join the Team
 
 We're always looking for contributors and collaborators. Send your resume or portfolio to [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) to be considered for our open-source R&D team.
 
 ---
-
-## License
-
-This project is licensed under the [Apache License 2.0](https://github.com/Team-Deepiri/deepiri-platform/blob/main/LICENSE.md). You are free to use, modify, and distribute this software, including for commercial purposes.
 
 <br>
 
