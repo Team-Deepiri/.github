@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" style="font-family: 'Segoe UI', system-ui, sans-serif; background: transparent;">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388bfd" opacity="0.8"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#34d399" opacity="0.8"/>
+    </marker>
+  </defs>
+
+  <rect x="300" y="20" width="200" height="40" rx="8" fill="none" stroke="#388bfd" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="400" y="45" text-anchor="middle" fill="#388bfd" font-size="14" font-weight="700">User / Client</text>
+
+  <line x1="400" y1="60" x2="400" y2="96" stroke="#388bfd" stroke-width="2" opacity="0.8" marker-end="url(#arrow-blue)"/>
+
+  <rect x="250" y="100" width="300" height="50" rx="8" fill="#388bfd" fill-opacity="0.15" stroke="#388bfd" stroke-width="2"/>
+  <text x="400" y="130" text-anchor="middle" fill="#388bfd" font-size="16" font-weight="700">API Gateway</text>
+
+  <line x1="400" y1="150" x2="400" y2="175" stroke="#388bfd" stroke-width="2" opacity="0.6"/>
+  <line x1="230" y1="175" x2="570" y2="175" stroke="#388bfd" stroke-width="2" opacity="0.6"/>
+  
+  <line x1="230" y1="175" x2="230" y2="196" stroke="#388bfd" stroke-width="2" opacity="0.6" marker-end="url(#arrow-blue)"/>
+  <line x1="570" y1="175" x2="570" y2="196" stroke="#388bfd" stroke-width="2" opacity="0.6" marker-end="url(#arrow-blue)"/>
+
+  <rect x="80" y="200" width="300" height="50" rx="8" fill="#6e7681" fill-opacity="0.15" stroke="#6e7681" stroke-width="2"/>
+  <text x="230" y="230" text-anchor="middle" fill="#8b949e" font-size="15" font-weight="700">Platform Services</text>
+  
+  <rect x="420" y="200" width="300" height="50" rx="8" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="570" y="230" text-anchor="middle" fill="#8b5cf6" font-size="15" font-weight="700">AI / ML Services</text>
+  
+  <line x1="230" y1="250" x2="230" y2="285" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+  <line x1="570" y1="250" x2="570" y2="285" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+  <line x1="230" y1="285" x2="570" y2="285" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+  
+  <line x1="400" y1="285" x2="400" y2="316" stroke="#34d399" stroke-width="2" opacity="0.6" marker-end="url(#arrow-green)"/>
+
+  <rect x="250" y="320" width="300" height="50" rx="8" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-width="2"/>
+  <text x="400" y="350" text-anchor="middle" fill="#34d399" font-size="15" font-weight="700">Infrastructure Layer</text>
+
+  <text x="400" y="420" text-anchor="middle" fill="#6e7681" font-size="10" letter-spacing="1.5">DEEPIRI ARCHITECTURE</text>
+</svg>
