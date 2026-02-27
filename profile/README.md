@@ -2,8 +2,7 @@
 
 # Deepiri
 
-**A production-grade, Kubernetes-native platform for building scalable AI-powered microservices and AI-driven workflows.**
-
+An open source organization currently focused on building an **intelligence platform for building scalable AI-powered data ingestion and automated workflows.**
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](#)
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](#)
