@@ -88,23 +88,6 @@ Exploration drives innovation, but practical implementation creates impact. Deep
 | **General Email** | [management@deepiri.com](mailto:management@deepiri.com) |
 | **Support Inquiries** | [helpdesk@deepiri.com](mailto:helpdesk@deepiri.com) |
 
-## The Deepiri Philosophy
-
-We believe that architecture is a living entity. Most platforms fail because they allow "architectural rot" — the slow creep of technical debt that makes systems impossible to maintain.
-
-Deepiri is built to enforce:
-
-- **Strict Logic Isolation** — no service leaks data into another
-- **Environment Parity** — if it doesn't run in `run_dev.py`, it doesn't run in production
-- **AI-Native Flow** — AI agents are system actors with their own ports and execution cycles, not chatbots bolted on afterward
-
-## Key Principles
-
-- **Clear domain boundaries** — every service owns its logic and data
-- **Infrastructure realism** — local dev mimics production behavior
-- **Minimal developer friction** — complexity lives in the platform, not the workflow
-- **AI as a first-class system component**, not an afterthought
-
 ---
 
 ## Tech Stack
