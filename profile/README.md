@@ -76,6 +76,9 @@ Intelligence without alignment introduces risk. Deepiri prioritizes responsible 
 
 ### 5. Research with Practical Impact  
 Exploration drives innovation, but practical implementation creates impact. Deepiri is committed to transforming research into real-world AI platforms.
+
+---
+
 ### Connect With Us
 
 | Resource | Contact |
