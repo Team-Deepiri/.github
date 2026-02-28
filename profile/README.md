@@ -1,6 +1,8 @@
 <div align="center">
 
-# Deepiri
+# Deepiri!
+
+<img width="1584" height="672" alt="Gemini_Generated_Image_o6jzceo6jzceo6jz (1)" src="https://github.com/user-attachments/assets/051c8511-ee4f-424a-9b24-c4ea111f507a" />
 
 An open source organization currently focused on building an **intelligence platform for building scalable AI-powered data ingestion and automated workflows.**
 
