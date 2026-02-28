@@ -21,17 +21,13 @@ An open source organization currently focused on building an **intelligence plat
 <br>
 
 <a href="#overview">Overview</a> ·
-<a href="#the-deepiri-philosophy">Philosophy</a> ·
-<a href="#key-principles">Key Principles</a> ·
+<a href="#team-mission">Team Mission</a> ·
+<a href="#philosophy">Philosophy</a> ·
 <a href="#tech-stack">Tech Stack</a> ·
 <a href="#prerequisites">Prerequisites</a> ·
-<a href="#getting-started">Getting Started</a> ·
 <a href="#architecture">Architecture</a> ·
 <a href="#engineering-standards">Engineering Standards</a> ·
-<a href="#roadmap">Roadmap</a> ·
-<a href="#collaboration--support">Collaboration & Support</a> ·
-<a href="#team--mission">Team & Mission</a> ·
-<a href="#license">License</a>
+<a href="#collaboration--support">Collaboration & Support</a>
 
 </div>
 
@@ -80,6 +76,9 @@ Intelligence without alignment introduces risk. Deepiri prioritizes responsible 
 
 ### 5. Research with Practical Impact  
 Exploration drives innovation, but practical implementation creates impact. Deepiri is committed to transforming research into real-world AI platforms.
+
+---
+
 ### Connect With Us
 
 | Resource | Contact |
@@ -143,6 +142,7 @@ Before running the stack, ensure the following are installed:
 <p align="center">
   <img src="../assets/architecture.svg" alt="Deepiri Architecture" />
 </p>
+
 ---
 
 ## Engineering Standards
@@ -152,8 +152,6 @@ We move fast without compromising system integrity. All contributions follow our
 - **Conventional Commits** — every commit must be prefixed (e.g., `feat:`, `fix:`, `docs:`) and follow our commit template for consistency
 - **Domain-Specific Targeting** — contributors target the dev branch for their specific service
 - **QA Verification** — all PRs are reviewed to ensure system integrity is maintained, features work as intended, and Docker containers are healthy
-
----|
 
 ---
 
