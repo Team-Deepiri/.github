@@ -36,7 +36,7 @@ Deepiri is an open source community currently focused on building an **intellige
 
 ## Overview
 
-Deepiri is an independent AI research and development collective focused on building advanced productivity platforms and autonomous systems. Operating at the intersection of modular microservice architecture, generative intelligence, and adaptive human–AI interaction, the group explores how intelligent systems can become scalable, creative, and self-managing.
+Deepiri is an independent open source AI research and development collective focused on building advanced productivity platforms and autonomous systems. Operating at the intersection of modular microservice architecture, generative intelligence, and adaptive human–AI interaction, the group explores how intelligent systems can become scalable, creative, and self-managing.
 
 With a globally distributed team of 35+ developers, Deepiri researches and prototypes AI-driven frameworks for media ingestion, automation, cognitive computing, and cloud productivity. The organization emphasizes modular, flexible system design—enabling AI platforms that evolve, integrate, and operate across distributed environments.
 
