@@ -16,7 +16,7 @@ Deepiri is an open source community currently focused on building an **intellige
 
 <br>
 
-<img src="../assets/deepiri-logo.png" alt="Deepiri Logo" />
+<!-- <img src="../assets/deepiri-logo.png" alt="Deepiri Logo" /> -->
 
 <br>
 
