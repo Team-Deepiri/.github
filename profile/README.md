@@ -1,10 +1,8 @@
 <div align="center">
 
-# Deepiri!
-
 <img width="1584" height="672" alt="Gemini_Generated_Image_o6jzceo6jzceo6jz (1)" src="https://github.com/user-attachments/assets/051c8511-ee4f-424a-9b24-c4ea111f507a" />
 
-An open source organization currently focused on building an **intelligence platform for building scalable AI-powered data ingestion and automated workflows.**
+Deepiri is an open source community currently focused on building an **intelligence platform for building scalable AI-powered data ingestion and automated workflows.**
 
 ---
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
@@ -48,7 +46,7 @@ Deepiri’s goal is not only to research artificial intelligence, but to transla
 
 ## Team Mission
 
-Deepiri’s mission is to design and develop scalable AI systems that augment human productivity while maintaining alignment, adaptability, and long-term sustainability.
+Deepiri’s mission is to design and develop scalable AI systems that augment human productivity while maintaining alignment, adaptability, and long-term sustainability. We aim to provide early career professionals and students with a unique learning opporutunity to publicly showcase their work and also make some cool projects for their GitHub profiles. We only select people who show unique potential during a small interview process and allow them into our internal organization.
 
 The team is committed to:
 
@@ -56,7 +54,9 @@ The team is committed to:
 - Building generative systems capable of creative and adaptive problem-solving  
 - Designing intuitive human–AI interfaces that enhance collaboration rather than replace it  
 - Developing autonomous frameworks that operate independently while remaining aligned with human goals  
-- Leveraging cloud infrastructure to enable distributed, high-performance AI workloads  
+- Leveraging cloud infrastructure to enable distributed, high-performance AI workloads
+- Adding to our internal members skillsets and upskilling
+- Ensuring we maintain an environment by which we can collaborate with new people all across the developer community
 
 Through research, experimentation, and collaboration, Deepiri aims to shape the next generation of intelligent productivity platforms.
 
